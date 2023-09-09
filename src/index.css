@@ -1,0 +1,24 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  gap: 2rem;
+  height: 100svh;
+}
+
+section {
+  min-width: 325px;
+}
+
+#buttons {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
